@@ -1,0 +1,58 @@
+{
+	"grocery_shop": [{
+		"shop_name": "Justclickmart",
+		"shop_address": "A-1003, 10th Floor, Wardha Road, Ramdas Peth, Nagpur - 440010, Lokmat Bhavan",
+		"contact_number": "+(91)-8007001144"
+
+	}, {
+		"shop_name": "Renuka Dairy Provision",
+		"shop_address": "Hanuman Nagar",
+		"contact_number": "+(91)-7756975051"
+
+	}, {
+		"shop_name": "Ghanshyam Trading",
+		"shop_address": "Shahu Sadan, Gittikhadan Katol Road, Katol Road, Nagpur - 440013, Near Kings Wine",
+		"contact_number": "+(91)-7756975051"
+
+	}, {
+		"shop_name": "Abhishekh Trader",
+		"shop_address": "Indora, Gittikhadan Katol Road, Katol Road, Nagpur - 440013",
+		"contact_number": "+(91)-8983295663"
+
+	}, {
+		"shop_name": "Jai Santoshi Super Bazaar",
+		"shop_address": "155, Gandhi Nagar, North Ambazari Road, Gandhi Nagar, Nagpur - 440010, Near Shivaji Skating Ground",
+		"contact_number": "+(91)-712-2242139"
+
+	}, {
+		"shop_name": "Shree Bhagwan Traders",
+		"shop_address": "NMC Building, Shop No 12, Ganesh Peth, Nagpur - 440018, Opposite New ST Stand",
+		"contact_number": "+(91)-7507779988"
+
+	}, {
+		"shop_name": "Bapat Bandhoo",
+		"shop_address": "Modi No 3, Sitabuldi, Nagpur - 440012",
+		"contact_number": "+(91)-712-2525605"
+
+	}, {
+		"shop_name": "Poonam Bazar",
+		"shop_address": "Basement Poonam Chembers, Chhindwada Road, Chhaoni, Nagpur - 440013, Byramji",
+		"contact_number": "+(91)-712-2592058"
+
+	}, {
+		"shop_name": "Purushottam Super Bazar",
+		"shop_address": "Suprabhat Sankul, Shivaji Nagar, Nagpur - 440010, Opposite Basket Ball Ground",
+		"contact_number": "+(91)-712-6536765"
+
+	}, {
+		"shop_name": "Manoj Traders",
+		"shop_address": "Main Road, Khamla, Nagpur - 440025, Near Kamal Medicos",
+		"contact_number": "+(91)-9730181950"
+
+	}, {
+		"shop_name": "Big Bazaar",
+		"shop_address": "Railway Station Road, Sir Bezonji Mehta Road, Cotton Market, NAGPUR - 440018, Near Gandhi Sagar Lake, Behind Raman Science Center",
+		"contact_number": "+(91)-712-3024255"
+
+	}]
+}

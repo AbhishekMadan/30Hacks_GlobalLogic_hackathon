@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="15dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/material_blue_grey_950"
+        android:textSize="30sp"
+        android:text="Sensor-->Server" />
+
+    <Spinner
+        android:id="@+id/spinner"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/FoodList">
+
+    </Spinner>
+
+    <EditText
+        android:id="@+id/et_weigt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter weight"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/et_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter level"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Update" />
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Name of the Retailer"
+        android:id="@+id/retailer_name"
+        android:textStyle="bold" />
+     <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/retailer_phone_number"
+         android:textAppearance="?android:attr/textAppearanceMedium"
+      android:text="Phone Number"
+         android:textColor="#ee2b2b" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/retailer_address_textView"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
+</LinearLayout>

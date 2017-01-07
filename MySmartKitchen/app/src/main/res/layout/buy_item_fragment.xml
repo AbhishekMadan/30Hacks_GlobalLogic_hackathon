@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/card_gradient">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/Item_Name"
+       android:layout_centerHorizontal="true"
+       android:textAppearance="?android:attr/textAppearanceLarge"
+       android:text="---"
+       android:paddingLeft="30dp"
+       android:paddingRight="30dp"
+       android:background="@drawable/dark_border"
+       android:textSize="35dp"
+       android:paddingTop="20dp"
+       android:paddingBottom="20dp"
+       android:layout_alignParentTop="true"
+       android:layout_marginTop="55dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/Item_Name"
+        android:id="@+id/ll1"
+        android:gravity="center">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_marginLeft="10dp"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:text="Last Purchase Date :"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:id="@+id/last_purchase_date_tv"
+       />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll1"
+        android:id="@+id/ll2"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/label_order_quantity"
+            android:text="Order Quantity :"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:paddingLeft="8dp"
+            android:layout_weight="2"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/order_quantity_tv"
+            android:hint="Enter Value in mg or ml"
+            android:inputType="number"
+            android:layout_weight="8"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll2"
+        android:text="Order Product"
+        android:id="@+id/Buy_Button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+</RelativeLayout>

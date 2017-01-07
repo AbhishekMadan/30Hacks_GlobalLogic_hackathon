@@ -1,0 +1,22 @@
+<?php
+	$host='mysql1.000webhost.com';
+	$uname='a6178447_test';
+	$pwd='abc123';
+	$db="a6178447_dbtest";
+
+	$con = mysql_connect($host,$uname,$pwd) or die("connection failed");
+	mysql_select_db($db,$con) or die("db selection failed");
+
+	 $jsonData = array();
+
+	$r=mysql_query("select * from demo,$con);
+
+
+	while($row=mysql_fetch_row($r))
+	{
+		 $jsonData[] = $row;
+	}
+
+	echo json_encode($jsonData);
+	mysql_close($con);
+?>

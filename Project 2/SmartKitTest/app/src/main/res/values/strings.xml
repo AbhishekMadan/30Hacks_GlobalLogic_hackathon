@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SmartKitTest</string>
+    <string name="action_settings">Add address</string>
+
+    <array name="FoodList">
+        <item>Sugar</item>
+        <item>Tea</item>
+        <item>Rice</item>
+        <item>Flour</item>
+        <item>Salt</item>
+        <item>Oil</item>
+        <item>Milk</item>
+        <item>Cashewnuts</item>
+    </array>
+</resources>
